@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fas fa-pizza-slice"></i> pizza</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.png" alt="">
+                <div class="content">
+                    <h3>Margarita Pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹149</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.png" alt="">
+                <div class="content">
+                    <h3>Tomato Pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹199</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.png" alt="">
+                <div class="content">
+                    <h3>Cheese Corn Pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹179</span>
+                </div>
+            </div>
+            <h3 class="total">Total: ₹527</h3>
+            <a href="#" class="btn">Checkout Cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/slider-1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the <span>tastiest</span> pizza <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider-2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the <span>tastiest</span> pizza <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider-3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the <span>tastiest</span> pizza <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <section class="banner">
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>pizza</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>dessert</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>pasta</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>coldrink</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="steps">
+
+        <h1 class="title">how it <span>works</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/work-1.gif" alt="">
+                <h3>choose your favorite food</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-2.gif" alt="">
+                <h3>free and fast delivery</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-3.gif" alt="">
+                <h3>easy payments methods</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-4.gif" alt="">
+                <h3>and finally, enjoy your food</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="pizzas">
+
+        <h1 class="title">pizzas of the <span>month</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/pizza-1.png" alt="">
+                <h3>Margarita</h3>
+                <p>Margarita pizza: a timeless harmony of tomato, mozzarella, and basil on a perfect crust.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">₹149 <span>₹249</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/pizza-2.png" alt="">
+                <h3>Tomato Onion</h3>
+                <p>Tomato onion pizza: a savory delight marrying the sweetness of tomatoes with piquancy of onions.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">₹199 <span>₹299</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/pizza-3.png" alt="">
+                <h3>Cheese Corn</h3>
+                <p>Cheese corn pizza: a delightful fusion of cheese and sweet corn, creating a flavor-packed experience.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">₹179 <span>₹279</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Find us here</h3>
+                <p>Plot no 8-11, TechZone-2 , Bennett University Greater Noida</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <p>+91 9140308500</p>
+                <a href="#" class="link">shashwattripathi088@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>Localization</h3>
+                <p>241-Pani A.K Road Chowk, <br>
+                    Fatehpur,
+                    Uttar Pradesh</p>
+            </div>
+
+        </div>
+        <div class="credit">Created by <span>Shashwat Tripathi</span> | All Rights Reserved!</div>
+
+    </section>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="script.js"></script>
+
+</body>
+</html>

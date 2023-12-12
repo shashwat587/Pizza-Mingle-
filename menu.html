@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fas fa-pizza-slice"></i> pizza</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.png" alt="">
+                <div class="content">
+                    <h3>Margarita Pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹149</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.png" alt="">
+                <div class="content">
+                    <h3>Tomato Pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹179</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.png" alt="">
+                <div class="content">
+                    <h3>Cheese Corn Pizza</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₹199</span>
+                </div>
+            </div>
+            <h3 class="total">Total: ₹527</h3>
+            <a href="#" class="btn">Checkout Cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    <div class="heading">
+        <h1>our menu</h1>
+        <p><a href="home.html">home>>></a> menu</p>
+    </div>
+
+    <section class="menu">
+
+        <div class="swiper menu-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pizza</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Pepproni Pizza</h3>
+                                <p>Savory indulgence with zesty, perfectly-cured pepperoni slices top a blanket of cheese on a crust.</p>
+                            </div>
+                            <div class="price">₹239</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Margarita Pizza</h3>
+                                <p>Classic masterpiece featuring the perfect trio of tomatoes, mozzarella, and basil on thin crust.</p>
+                            </div>
+                            <div class="price">₹149</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Tomato Pizza</h3>
+                                <p>A burst of vibrant flavor, celebrating the simplicity of ripe tomatoes on a deliciously thin crust.</p>
+                            </div>
+                            <div class="price">₹179</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Tandoori Pizza</h3>
+                                <p>A tantalizing blend of Indian spices and traditional pizza, delivering a flavor-packed adventure.</p>
+                            </div>
+                            <div class="price">₹199</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Onion Cheese Pizza</h3>
+                                <p>Symphony where the sweetness of caramelized onions meets the richness of melted cheese on crust.</p>
+                            </div>
+                            <div class="price">₹249</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Cheese Burst Pizza</h3>
+                                <p>A gooey delight that unleashes a burst of cheesy goodness with every indulgent bite.</p>
+                            </div>
+                            <div class="price">₹299</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pasta</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Spaghetti Pasta</h3>
+                                <p>Delightful twirl of perfection, impeccably cooked and paired with a flavorful marinara that made each bite a savory experience.</p>
+                            </div>
+                            <div class="price">₹79</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Penne Pasta</h3>
+                                <p>Showcased an ideal al dente texture, providing the perfect canvas for a robust arrabbiata sauce to elevate its delicious simplicity.</p>
+                            </div>
+                            <div class="price">₹99</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Fusilli Pasta</h3>
+                                <p>A delightful spiral dance on palate, capturing a delectable blend of texture and flavor, making each bite a delightful experience.</p>
+                            </div>
+                            <div class="price">₹129</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Farfalle Pasta</h3>
+                                <p>A whimsical bow-tie delight that embraced a velvety pesto sauce, creating a harmonious blend of taste and texture in every bite.</p>
+                            </div>
+                            <div class="price">₹79</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Rigatoni Pasta</h3>
+                                <p>A culinary triumph with its ridged tubes perfectly cradling a robust Bolognese sauce, delivering a satisfying combination of hearty flavors.</p>
+                            </div>
+                            <div class="price">₹99</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Linguine Pasta</h3>
+                                <p>A delicate ribbon of perfection, gracefully entwined with a garlic-infused olive oil, offering a simple yet sublime culinary experience.</p>
+                            </div>
+                            <div class="price">₹129</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">dessert</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Gulab Jamun</h3>
+                                <p>Soft, syrup-soaked spheres of sheer indulgence that melt in the mouth, delivering a perfect balance of sweetness and texture.</p>
+                            </div>
+                            <div class="price">₹49</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Rasmalai</h3>
+                                <p>Velvety, milk-soaked discs of sheer delight, where the delicate sweetness and cardamom-infused richness create a divine dessert experience.</p>
+                            </div>
+                            <div class="price">₹79</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Gajar ka Halwa</h3>
+                                <p>A warm and comforting symphony of grated carrots, condensed milk, and aromatic ghee, crafting a delightful fusion of sweetness and earthy flavors.</p>
+                            </div>
+                            <div class="price">₹99</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Jalebi</h3>
+                                <p>A crispy and coiled carnival of sweetness, the golden-orange swirls deliver a burst of sugary delight with every syrupy bite.</p>
+                            </div>
+                            <div class="price">₹49</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Find us here</h3>
+                <p>Plot no 8-11, TechZone-2 , Bennett University Greater Noida</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <p>+91 9140308500</p>
+                <a href="#" class="link">shashwattripathi088@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>Localization</h3>
+                <p>241-Pani A.K Road Chowk, <br>
+                    Fatehpur,
+                    Uttar Pradesh</p>
+            </div>
+
+        </div>
+        <div class="credit">Created by <span>Shashwat Tripathi</span> | All Rights Reserved!</div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+    
+</body>
+</html>
